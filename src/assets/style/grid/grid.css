@@ -9,3 +9,6 @@ body {
     grid-area: header;
 }
 
+.menu-lateral {
+    grid-area: aside;
+}
