@@ -3,6 +3,8 @@ body {
     grid-template-areas: 
     "aside header"
     "aside main";
+    /* fr é a fração do espaço que sobou do grid conteiner ( fr = 1 fração de (total-aside) */
+    grid-template-columns: auto 1fr;
 }
 
 .cabecalho {
